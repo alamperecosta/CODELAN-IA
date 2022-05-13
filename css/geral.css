@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100px;
+}
+/*font-family: 'Vollkorn', serif;*/
+/*font-family: 'Vollkorn', serif;*/
+body {
+    background: #0E091B;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+@media (max-width:739px){
+    .container {
+        width: 100%;
+    }
+}

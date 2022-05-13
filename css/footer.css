@@ -1,0 +1,18 @@
+footer {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+footer a {
+    color: #873eff;
+    margin:0 10px;
+}
+
+footer p {
+    color: #aeaeae;
+    margin-right: 0;
+}
+

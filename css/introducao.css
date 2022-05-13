@@ -1,0 +1,46 @@
+.introducao {
+    display: block;
+    max-width: 808px;
+    margin: 100px 0;
+}
+
+.introducao h3{
+    font-family: 'Vollkorn', serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #04d361;
+    letter-spacing: .2rem;
+}
+
+.introducao h1{
+    flex: 1;
+    font-family: 'Vollkorn', serif;
+    font-weight: normal;
+    padding: 40px 0;
+    color: #fff;
+    font-size: 3em;
+    letter-spacing: .2rem;
+    line-height: 1.3em; 
+}
+
+.introducao p {
+    width: 75%;
+    color: #aeaeae;
+    line-height: 1.3em;
+    font-size: 1.125em                                                                           ;
+}
+
+@media (max-width: 739px){
+    .introducao {
+        display: block;
+        margin-left:10px;
+    }
+    .introducao h1 {
+        font-size: 2em;
+    }
+
+    .introducao p {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,66 @@
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    height: 80px;
+}
+
+
+header .logo a{
+    display: block;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Vollkorn', serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+header .logo a .d{
+    font-size: .875em;
+    color: #873eff;  
+}
+
+header .meugit {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    float: right;
+}
+
+.meugit a {
+    flex: 1;
+    font-size: 1.062em;
+    font-family: 'Vollkorn', serif;
+    color: #fff;
+
+}
+
+.meugit a:hover {
+    text-decoration: underline 2px solid #873eff;
+    cursor: pointer;
+}
+
+.meugit .comunidade {
+    background: none;
+    border: 2px solid #873eff;
+    padding: 10px;
+    font-size: .875em;
+    border-radius: 4px;
+}
+
+@media (max-width: 739px){
+    header {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .meugit {
+        margin-right: 20px;
+    }
+
+
+}
+
